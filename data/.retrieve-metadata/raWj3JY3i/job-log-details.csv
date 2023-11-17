@@ -1,0 +1,7 @@
+date,type,message
+1693398410760,INFO,Retrieve metadata job has been started
+1693398410764,INFO,Start getting describe of metadata
+1693398413099,INFO,Describe metadata: 217 metadata types
+1693398413105,INFO,Start getting list of metadata
+1693398414065,ERROR,Retrieve metadata job has been failed
+1693398414065,ERROR,Invalid or unexpected token

@@ -1,0 +1,9 @@
+message,date,objectName
+Disable automation process,1699963494474,
+Start Masking Process,1699963494475,
+Masking object 'Account',1699963497478,Account
+"Error: InvalidBatch : Failed to process query: INVALID_FIELD: SELECT Id,Name,Test_Date__c,Website FROM Account                ^ ERROR at Row:1:Column:16 No such column 'Test_Date__c' on entity 'Account'. If you are attempting to use a custom field, be sure to append the '__c' after the custom field name. Please reference your WSDL or the describe call for the appropriate names.",1699963499857,Account
+Masking object 'Contact',1699963499857,Contact
+Error: incorrect header check,1699963507876,Contact
+Enable automation process,1699963507876,
+Finish Masking Process,1699963507876,

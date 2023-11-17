@@ -1,0 +1,8 @@
+date,type,message
+1693297568175,INFO,Retrieve metadata job has been started
+1693297568179,INFO,Start getting describe of metadata
+1693297570870,INFO,Describe metadata: 217 metadata types
+1693297570872,INFO,Start getting list of metadata
+1693297571926,INFO,Start retrieve
+1693297592897,INFO,Retrieve completed
+1693297592899,INFO,Retrieve metadata job has been completed

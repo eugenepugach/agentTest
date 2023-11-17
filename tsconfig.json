@@ -1,0 +1,46 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "useUnknownInCatchVariables": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target":"ES2018",
+    "module": "commonjs",
+    "lib": ["es2020"],
+    "declaration": false,
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": false,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "strictPropertyInitialization":false,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "baseUrl": "./server",
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@data-masking-job/*": [
+        "./modules/data-masking/job/*"
+      ],
+      "@retrieve-metadata-job/*": [
+        "./modules/retrieve-metadata/job/*"
+      ]
+    },
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "files": [
+    "server/core/custom-request.d.ts"
+  ],
+  "include": ["server/**/*.ts"],
+  "exclude": ["node_modules"]
+}

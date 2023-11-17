@@ -1,0 +1,6 @@
+message,date,objectName
+Disable automation process,1699956102698,
+Start Masking Process,1699956102698,
+Enable automation process,1699956103448,
+"Error: {""error"":""invalid_client_id"",""error_description"":""client identifier invalid""}",1699956103449,
+Finish Masking Process,1699956103450,

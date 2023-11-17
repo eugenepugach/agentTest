@@ -1,0 +1,17 @@
+message,date,objectName
+Disable automation process,1699959654647,
+Start Masking Process,1699959654648,
+Masking object 'Account',1699959658185,Account
+"Error: 
+SELECT%20Id,Name,Test_Date__c,Website%20FROM%20Account
+     ^
+ERROR at Row:1:Column:6
+line 1:6 no viable alternative at character '%'",1699959658817,Account
+Masking object 'Contact',1699959658817,Contact
+"Error: 
+SELECT%20Id,Name%20FROM%20Contact
+     ^
+ERROR at Row:1:Column:6
+line 1:6 no viable alternative at character '%'",1699959659430,Contact
+Enable automation process,1699959659430,
+Finish Masking Process,1699959659431,

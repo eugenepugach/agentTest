@@ -1,0 +1,9 @@
+message,date,objectName
+Disable automation process,1699963884022,
+Start Masking Process,1699963884023,
+Masking object 'Account',1699963887128,Account
+Error: incorrect header check,1699963890139,Account
+Masking object 'Contact',1699963890139,Contact
+Error: incorrect header check,1699963892882,Contact
+Enable automation process,1699963892883,
+Finish Masking Process,1699963892883,

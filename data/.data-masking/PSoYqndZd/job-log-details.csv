@@ -1,0 +1,10 @@
+message,date,objectName
+Disable automation process,1699965688773,
+Start Masking Process,1699965688773,
+Masking object 'Account',1699965691831,Account
+Finish masking for object 'Account',1699965725185,Account
+Masking object 'Contact',1699965725188,Contact
+Error: INVALID_FIELD_FOR_INSERT_UPDATE:Unable to create/update fields: Name. Please check the security settings of this field and verify that it is read/write for your profile or permission set.:Name --,1699965727740,Contact
+Finish masking for object 'Contact',1699965728327,Contact
+Enable automation process,1699965728327,
+Finish Masking Process,1699965728327,

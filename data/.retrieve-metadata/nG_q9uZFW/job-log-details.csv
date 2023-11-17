@@ -1,0 +1,9 @@
+date,type,message
+1693306402961,INFO,Retrieve metadata job has been started
+1693306402965,INFO,Start getting describe of metadata
+1693306405266,INFO,Describe metadata: 217 metadata types
+1693306405271,INFO,Start getting list of metadata
+1693306457815,ERROR,INVALID_TYPE: Unknown type:null
+1693306458461,INFO,Start retrieve
+1693306458462,INFO,Retrieve completed
+1693306458464,INFO,Retrieve metadata job has been completed
